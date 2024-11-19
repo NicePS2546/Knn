@@ -4,7 +4,7 @@ import pandas as pd
 st.title("🥨🥨WedSite Developing using Python🥨🥨")
 st.header("🥪WedSite Developing using Python🥪")
 
-st.image('./img/์NiceMewing.jpg')
+st.image('./img/NiceMewing.jpg')
 st.subheader("Nice Lnwza007")
 
 dt = pd.read_csv('./data/iris-3.csv')
