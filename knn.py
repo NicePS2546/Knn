@@ -5,16 +5,16 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 import numpy as np
 
+st.image('./img/NiceMewing.jpg', width=500)
+st.subheader("Pasit Bungoed")
+
 st.header("การจำแนกข้อมูลดอกไม้")
-
-
 dt = pd.read_csv('./data/iris-3.csv')
 st.subheader('ข้อมูลดิบ iris')
 st.write(dt.head(10))
 
 st.subheader('การจำแนกข้อมูลใหม่')
-st.image('./img/NiceMewing.jpg', width=500)
-st.subheader("Pasit Bungoed")
+
 col1, col2, col3 = st.columns(3)
 
 
