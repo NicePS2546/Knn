@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 
 st.header("การจำแนกข้อมูลดอกไม้")
-st.image('./img/NiceMewing.jpg')
+
 
 dt = pd.read_csv('./data/iris-3.csv')
 st.subheader('ข้อมูลดิบ iris')
@@ -14,7 +14,8 @@ st.write(dt.head(10))
 
 st.subheader('การจำแนกข้อมูลใหม่')
 col1, col2, col3 = st.columns(3)
-
+st.subheader("Pasit Bungoed")
+st.image('./img/NiceMewing.jpg')
 with col1:
    st.header("Versicolor")
    st.image("./img/iris1.jpg")
