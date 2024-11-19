@@ -34,7 +34,7 @@ html_7 = """
 st.markdown(html_7, unsafe_allow_html=True)
 st.markdown("")
 
-dt = pd.read_csv("./data/iris.csv")
+dt = pd.read_csv("./data/iris-3.csv")
 st.write(dt.head(10))
 
 dt1 = dt['petal_length'].sum()
