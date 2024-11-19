@@ -13,7 +13,7 @@ st.subheader('ข้อมูลดิบ iris')
 st.write(dt.head(10))
 
 st.subheader('การจำแนกข้อมูลใหม่')
-st.image('./img/NiceMewing.jpg')
+st.image('./img/NiceMewing.jpg', width=500)
 st.subheader("Pasit Bungoed")
 col1, col2, col3 = st.columns(3)
 
